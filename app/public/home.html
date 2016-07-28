@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+    html,
+    body {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+    
+    a,
+    a:hover {
+        color: black;
+    }
+    
+    .container,
+    .row {
+        height: 100%;
+    }
+    
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="center" class="col-md-10 col-md-offset-1">
+                <h1 class=""><i class="fa fa-users" aria-hidden="true"></i> Friend Finder</h1>
+                <br>
+                <h2 class="">Answer a few questions. </h2>
+                <h2 class="">Then find the friend of your dreams!</h2>
+                <br>
+                <div class="">
+                    <a href="/survey">
+                        <button type="button" class="btn btn-lg btn-info">
+                            <h4><i class="fa fa-list-ol" aria-hidden="true"></i> Go to Survey</h4></button>
+                    </a>
+                </div>
+                <footer class="footer">
+                    <p><a href="/api/friends">API Friends List</a> | <a target="_blank" href="https://github.com/kjgum/friendFinder">GitHub Repo</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
