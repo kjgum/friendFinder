@@ -22,6 +22,8 @@ router.post('/api/friends', function(req, res) {
     res.json({
         name: friends[index].name,
         photo: friends[index].photo,
+        location: friends[index].location,
+        email: friends[index].email
     });
 })
 
