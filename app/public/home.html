@@ -16,11 +16,21 @@
         position: fixed;
         height: 100%;
         width: 100%;
+        background-color: #d4d4d4;
     }
     
     a,
     a:hover {
         color: black;
+    }
+    
+    .row {
+        margin-top: 10%;
+    }
+    
+    .intro {
+        background-color: white;
+        padding: 10px;
     }
     
     .container,
@@ -39,24 +49,24 @@
 <body>
     <div class="container">
         <div class="row">
-            <div id="center" class="col-md-10 col-md-offset-1">
-                <h1 class=""><i class="fa fa-users" aria-hidden="true"></i> Friend Finder</h1>
+            <div id="text-center" class="col-md-6 col-md-offset-3 intro img-rounded">
+                <h1 class="text-center"><i class="fa fa-users" aria-hidden="true"></i> Friend Finder</h1>
                 <br>
-                <h2 class="">Answer a few questions. </h2>
-                <h2 class="">Then find the friend of your dreams!</h2>
+                <h2 class="text-center">Answer a few questions. </h2>
+                <h2 class="text-center">Then find the friend of your dreams!</h2>
                 <br>
-                <div class="">
+                <div class="text-center">
                     <a href="/survey">
                         <button type="button" class="btn btn-lg btn-info">
                             <h4><i class="fa fa-list-ol" aria-hidden="true"></i> Go to Survey</h4></button>
                     </a>
                 </div>
-                <footer class="footer">
-                    <p><a href="/api/friends">API Friends List</a> | <a target="_blank" href="https://github.com/kjgum/friendFinder">GitHub Repo</a></p>
-                </footer>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <p><a href="/api/friends">API Friends List</a> | <a target="_blank" href="https://github.com/kjgum/friendFinder">GitHub Repo</a></p>
+    </footer>
 </body>
 
 </html>
