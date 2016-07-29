@@ -13,10 +13,14 @@
     <style>
     html,
     body {
+        background-image: url(http://daisyduxie.com/wp-content/uploads/2014/09/Los-Angeles-palm-trees-_147132-19.jpg);
         position: fixed;
         height: 100%;
         width: 100%;
         background-color: #d4d4d4;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
     
     a,
@@ -31,13 +35,24 @@
     .intro {
         background-color: white;
         padding: 10px;
+        opacity: .9;
+        color: #1C0203;
     }
     
     .container,
     .row {
         height: 100%;
     }
+
+    .btn {
+      background-color: #4b2426;
+      border: none;
+    }
     
+    .btn:hover {
+      background-color: #5c2c2f;
+    }
+
     .footer {
         position: absolute;
         width: 100%;
@@ -49,16 +64,16 @@
 <body>
     <div class="container">
         <div class="row">
-            <div id="text-center" class="col-md-6 col-md-offset-3 intro img-rounded">
-                <h1 class="text-center"><i class="fa fa-users" aria-hidden="true"></i> Friend Finder</h1>
-                <br>
+            <div id="" class="col-md-6 col-md-offset-3 intro img-rounded text-center">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-and-finance-45/24/group-128.png" class="text-center">
+                <!-- <h1 class="text-center"> Friend Finder</h1> -->
                 <h2 class="text-center">Answer a few questions. </h2>
                 <h2 class="text-center">Then find the friend of your dreams!</h2>
                 <br>
                 <div class="text-center">
                     <a href="/survey">
                         <button type="button" class="btn btn-lg btn-info">
-                            <h4><i class="fa fa-list-ol" aria-hidden="true"></i> Go to Survey</h4></button>
+                            <h4><i class="fa fa-list-ol" aria-hidden="true"></i> GO</h4></button>
                     </a>
                 </div>
             </div>
